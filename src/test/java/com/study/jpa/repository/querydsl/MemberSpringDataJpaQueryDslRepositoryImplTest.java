@@ -3,7 +3,6 @@ package com.study.jpa.repository.querydsl;
 
 import com.querydsl.jpa.impl.JPAQueryFactory;
 import com.study.jpa.entity.Member;
-import com.study.jpa.entity.QMember;
 import jakarta.annotation.PostConstruct;
 import jakarta.persistence.EntityManager;
 import jakarta.persistence.PersistenceContext;
@@ -11,8 +10,6 @@ import org.assertj.core.api.Assertions;
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.transaction.annotation.Transactional;
-
-import java.util.List;
 
 import static com.study.jpa.entity.QMember.member;
 
